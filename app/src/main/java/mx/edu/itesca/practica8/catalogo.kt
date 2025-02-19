@@ -76,6 +76,7 @@ class catalogo : AppCompatActivity() {
             var movie = movies[position]
             var inflator = context!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             var vista = inflator.inflate(R.layout.movies,null)
+//            flat
         }
     }
 }
