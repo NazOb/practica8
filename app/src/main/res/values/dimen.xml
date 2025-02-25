@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">25sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="reg_text">14sp</dimen>
+    <dimen name="desc_text">15sp</dimen>
+    <dimen name="button_ext">20sp</dimen>
+    <dimen name="padding_button">15dp</dimen>
+    <dimen name="margin_top_radio_group">30dp</dimen>
+    <dimen name="hp_radio_group">10dp</dimen>
+    <dimen name="radio_button">60dp</dimen>
+    <dimen name="rb_text">20sp</dimen>
+    <dimen name="hmrb">3dp</dimen>
+</resources>

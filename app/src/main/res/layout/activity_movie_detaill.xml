@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -23,8 +23,8 @@
 
         <TextView
             android:id="@+id/tv_movie_name"
-            android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:paddingLeft="25dp"
             android:textSize="20sp"
@@ -34,15 +34,46 @@
 
         <TextView
             android:id="@+id/tv_movie_desc"
-            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="25dp"
-            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
             android:text="Soy una descripción"
+            android:textSize="14sp"
             android:textColor="@color/yellow"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/yellow"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="32dp"/>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_buy_tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:paddingHorizontal="@dimen/padding_button"
+        android:text="BUY MY TICKETS!"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_seat_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="0"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        />
+
 
 </LinearLayout>

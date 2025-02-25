@@ -4,4 +4,5 @@ data class Movies(
     var title:String,
     var image:Int,
     var header:Int,
-    var sinopsis:String)
+    var sinopsis:String,
+    var seats:ArrayList<Client>)
