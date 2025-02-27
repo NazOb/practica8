@@ -22,13 +22,13 @@ class seat_selection : AppCompatActivity() {
         }
 
         val tv_title_seats : TextView = findViewById(R.id.tv_title_seats)
-        var posMovie = -1
+        var pos_movie = -1
 
         val bundle = intent.extras
 
         if (bundle!=null){
             tv_title_seats.setText(bundle.getString("name"))
-            posMovie = bundle.getInt("id")
+            pos_movie = bundle.getInt("id")
         }
 
         val btn_confirm : Button = findViewById(R.id.btn_confirm)
@@ -42,39 +42,43 @@ class seat_selection : AppCompatActivity() {
         val rg_row3 : RadioGroup = findViewById(R.id.rg_row3)
         val rg_row4 : RadioGroup = findViewById(R.id.rg_row4)
 
-        rg_row1.setOnClickListener { group, checkedId->
-            if(checkedId > -1) {
-                rg_row2.clearCheck()
-                rg_row3.clearCheck()
-                rg_row4.clearCheck()
+        rg_row1.setOnCheckedChangeListener{
+            group, checkedId->
+            if(checkedId > -1){
                 rg_row1.check(checkedId)
+                rg_row2.clearCheck()
+                rg_row3.clearCheck()
+                rg_row4.clearCheck()
             }
         }
 
-        rg_row2.setOnClickListener { group,checkedId->
-            if(checkedId > -1) {
-                rg_row1.clearCheck()
-                rg_row3.clearCheck()
-                rg_row4.clearCheck()
+        rg_row2.setOnCheckedChangeListener{
+                group, checkedId->
+            if(checkedId > -1){
                 rg_row2.check(checkedId)
+                rg_row1.clearCheck()
+                rg_row3.clearCheck()
+                rg_row4.clearCheck()
             }
         }
 
-        rg_row3.setOnClickListener { group,checkedId->
-            if(checkedId > -1) {
+        rg_row3.setOnCheckedChangeListener{
+                group, checkedId->
+            if(checkedId > -1){
+                rg_row3.check(checkedId)
                 rg_row1.clearCheck()
                 rg_row2.clearCheck()
                 rg_row4.clearCheck()
-                rg_row3.check(checkedId)
             }
         }
 
-        rg_row4.setOnClickListener { group,checkedId->
-            if(checkedId > -1) {
+        rg_row4.setOnCheckedChangeListener{
+                group, checkedId->
+            if(checkedId > -1){
+                rg_row4.check(checkedId)
                 rg_row1.clearCheck()
                 rg_row2.clearCheck()
                 rg_row3.clearCheck()
-                rg_row4.check(checkedId)
             }
         }
 

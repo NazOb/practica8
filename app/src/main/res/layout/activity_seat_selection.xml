@@ -59,7 +59,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -71,7 +74,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -83,7 +89,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -95,7 +104,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -107,6 +119,8 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
 
     </RadioGroup>
@@ -132,7 +146,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -144,7 +161,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -156,6 +176,8 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
         <RadioButton
             android:layout_width="@dimen/radio_button"
@@ -168,7 +190,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -180,6 +205,8 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
 
     </RadioGroup>
@@ -205,7 +232,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -217,7 +247,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -229,7 +262,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -241,7 +277,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -253,6 +292,8 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
 
     </RadioGroup>
@@ -278,7 +319,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -290,7 +334,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -302,7 +349,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -314,7 +364,10 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
+
         <RadioButton
             android:layout_width="@dimen/radio_button"
             android:layout_height="@dimen/radio_button"
@@ -326,6 +379,8 @@
             android:background="@drawable/radio_selectable"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
             />
 
     </RadioGroup>
